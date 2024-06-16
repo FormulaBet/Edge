@@ -13,10 +13,10 @@ Os dados escolhidos por nós foram:
 - Temperatura do motor
 Para fazermos essa medição, escolhemos o Termopar tipo K, por conta de sua resistência a altas temperaturas
 e támbem sua grande durabilidade.
-<br/>Simulação no TinkerCad: https://www.tinkercad.com/things/jwEQMK3mG9v-medidor-de-temperatura-tmp36?sharecode=t6DTtvCnz_UQcpBDItbN_Q5RTIu4Te4lGHOa9Dkzmjc
+<br/>Simulação no TinkerCad: https://www.tinkercad.com/things/jwEQMK3mG9v-medidor-de-temperatura-tmp36?sharecode=t6DTtvCnz_UQcpBDItbN_Q5RTIu4Te4lGHOa9Dkzmjc<br/>
 Devido às limtações da plataforma, usamos um TMP36 como ferramenta de medida. 
 <br/>A temperatura é exibida no Monitor Serial, porém, também utilizamos leds para representar os estados do motor.
-Leds apagados: Motor desligado ou com baixo uso<br/>
-Led Verde: Motor com Temperatura entre 60 graus e 79 graus<br/>
-Led Amarelo: Motor com Temperatura entre 80 graus e 99 graus<br/>
-Led Vermelho: Motor com Temperatura entre 100 graus e 125 graus(limitação do TMP36)
+Leds apagados: Motor desligado ou com baixo uso.<br/>
+Led Verde: Motor com Temperatura entre 60 graus e 79 graus.<br/>
+Led Amarelo: Motor com Temperatura entre 80 graus e 99 graus.<br/>
+Led Vermelho: Motor com Temperatura entre 100 graus e 125 graus.(limitação do TMP36)
