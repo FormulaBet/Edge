@@ -23,4 +23,4 @@ Devido às limtações da plataforma, usamos um TMP36 como ferramenta de medida.
 Leds apagados: Motor desligado ou com baixo uso.<br/>
 Led Verde: Motor com Temperatura entre 60 graus e 79 graus.<br/>
 Led Amarelo: Motor com Temperatura entre 80 graus e 99 graus.<br/>
-Led Vermelho: Motor com Temperatura entre 100 graus e 125 graus.(limitação do TMP36)
+Led Vermelho: Motor com Temperatura entre 100 graus e 125 graus(limitação do TMP36).
