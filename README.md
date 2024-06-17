@@ -16,6 +16,8 @@ Os dados escolhidos por nós foram:
 Para fazermos essa medição, escolhemos o Termopar tipo K, por conta de sua resistência a altas temperaturas
 e támbem sua grande durabilidade.
 
+Confira o código em "temperature.ino"
+
 Simulação no TinkerCad: https://www.tinkercad.com/things/jwEQMK3mG9v-medidor-de-temperatura-tmp36?sharecode=t6DTtvCnz_UQcpBDItbN_Q5RTIu4Te4lGHOa9Dkzmjc<br/>
 
 Devido às limtações da plataforma, utilizamos um TMP36 como ferramenta de medida. 
