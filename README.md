@@ -33,4 +33,17 @@ Confira o código em "speed.ino"
 
 (Notas:Para fazer o cálculo real, seria necessário alterar a váriavel wheelDiameter, colocando o diâmetro real da roda do carro. <br/>As altas velocidades da Fórmula E excedem a capacidade do Arduino, portanto, o valor da velocidade é aproximado, não exato)
 
+Simulação no TinkerCad: https://www.tinkercad.com/things/hiWTdHblpww-simulacao-rpm?sharecode=o7y19NHrpTQjII4W81WehZWJr7mE_FPA8Bm6IB-3doI
+
+Devido às limitações da plataforma, utilizamos:<br/>
+Um motor CC para simularmos as rotações.<br/>
+Uma fonte de energia para alterarmos a tensão e a corrente.<br/>
+Um display LCD para mostrar em tempo real o número de rotações.<br/>
+Um osciloscópio para mostrar gráficamente as oscilações.
+
+
+
+
+
+
 
