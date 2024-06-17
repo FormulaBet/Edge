@@ -5,19 +5,26 @@ Integrantes:
 - Leonardo de Farias Silva - RM: 555211.
 - Giancarlo Cestarolli - RM: 555248.
 - Gustavo Laur Pisanello - RM: 556603
+- Gabriel Mazzariol - RM: 555410
+- Rodrigo Akira - RM: 555384
 
 Para esse primeiro Sprint do Challenge, utilizaremos o Arduino UNO R3 para captação de determinados dados
 durante as corridas de Fórmula E.
 
 Os dados escolhidos por nós foram:
 
-- Velocidade do carro
+# Velocidade do carro
 
-Escolhemos utilizar um Encoder de 1000 PPR para calcularmos a velocidade do carro em tempo real.<br/>
+ - Escolhemos utilizar um Encoder de 1000 PPR para calcularmos a velocidade do carro em tempo real.
+   
+   Utilização:
+    - Acesse o arquivo "speed.ino"
+    - Altere a váriavel "wheelDiameter", colocando o diâmetro da roda do carro
+    - Faça a conexão entre o Encoder e o Arduino, seguindo a numeração das portas especificadas nos comentários do código
+    - Realize o Upload do código para o Hardware
+    - Após todos os passos, faça o teste girando o Encoder e visualizando a velocidade no Monitor Serial
 
-Confira o código em "speed.ino"
-
-(Notas:Para fazer o cálculo real, seria necessário alterar a váriavel wheelDiameter, colocando o diâmetro real da roda do carro. <br/>As altas velocidades da Fórmula E excedem a capacidade do Arduino, portanto, o valor da velocidade é aproximado, não exato)
+(Notas: As altas velocidades da Fórmula E excedem a capacidade do Arduino, portanto, o valor da velocidade é aproximado, não exato.<br/>Em uma situação real, o mecanismo seria aplicado na roda do carro)
 
 Simulação no TinkerCad: https://www.tinkercad.com/things/hiWTdHblpww-simulacao-rpm?sharecode=o7y19NHrpTQjII4W81WehZWJr7mE_FPA8Bm6IB-3doI
 
