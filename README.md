@@ -1,6 +1,8 @@
 # Edge
 Sistema de captação e demonstração de dados para o Sprint 1 do Challenge da matéria de Edge computing.
 
+Vídeo explicativo: https://youtu.be/Lhh21SJ8cXk
+
 Integrantes:
 - Leonardo de Farias Silva - RM: 555211.
 - Giancarlo Cestarolli - RM: 555248.
