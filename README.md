@@ -15,12 +15,12 @@ Os dados escolhidos por nós foram:
 
 # Velocidade do carro
 
- - Escolhemos utilizar um Encoder de 1000 PPR para calcularmos a velocidade do carro em tempo real.
+  Escolhemos utilizar um Encoder de 1000 PPR para calcularmos a velocidade do carro em tempo real.
    
    Utilização:
     - Acesse o arquivo "speed.ino"
     - Altere a váriavel "wheelDiameter", colocando o diâmetro da roda do carro
-    - Faça a conexão entre o Encoder e o Arduino, seguindo a numeração das portas especificadas nos comentários do código
+    - Faça a conexão entre o Encoder e o Arduino, seguindo as numerações das portas especificadas nos comentários do código
     - Realize o Upload do código para o Hardware
     - Após todos os passos, faça o teste girando o Encoder e visualizando a velocidade no Monitor Serial
 
@@ -34,12 +34,16 @@ Uma fonte de energia para alterarmos a tensão e a corrente.<br/>
 Um display LCD para mostrar em tempo real o número de rotações.<br/>
 Um osciloscópio para mostrar gráficamente as oscilações.
 
-- Temperatura do motor
+# Temperatura do motor
 
-Para fazermos essa medição, escolhemos o Termopar tipo K, por conta de sua resistência a altas temperaturas
-e támbem sua grande durabilidade.
+ Para fazermos essa medição, escolhemos o Termopar tipo K, por conta de sua resistência a altas temperaturas e támbem sua grande durabilidade.
 
-Confira o código em "temperature.ino"
+  Utilização:
+   - Acesse o arquivo "temperature.ino"
+   - Instale as bibliotecas "max6675.h" e <SPI.h>
+   - Faça a conexão entre o Termopar, o MAX6675 e o Arduino, seguindo as numerações das portas especificadas no código
+   - Realize o Upload do código para o Hardware
+   - Após todos os passos, Faça o teste conectando a ponta do Termopar a diferentes objetos. Visualize a temperatura no Monitor Serial
 
 Simulação no TinkerCad: https://www.tinkercad.com/things/jwEQMK3mG9v-medidor-de-temperatura-tmp36?sharecode=t6DTtvCnz_UQcpBDItbN_Q5RTIu4Te4lGHOa9Dkzmjc<br/>
 
