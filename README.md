@@ -11,22 +11,6 @@ durante as corridas de Fórmula E.
 
 Os dados escolhidos por nós foram:
 
-- Temperatura do motor
-
-Para fazermos essa medição, escolhemos o Termopar tipo K, por conta de sua resistência a altas temperaturas
-e támbem sua grande durabilidade.
-
-Confira o código em "temperature.ino"
-
-Simulação no TinkerCad: https://www.tinkercad.com/things/jwEQMK3mG9v-medidor-de-temperatura-tmp36?sharecode=t6DTtvCnz_UQcpBDItbN_Q5RTIu4Te4lGHOa9Dkzmjc<br/>
-
-Devido às limtações da plataforma, utilizamos um TMP36 como ferramenta de medida. 
-<br/>A temperatura é exibida no Monitor Serial, porém, também utilizamos leds para representar os estados do motor.
-Leds apagados: Motor desligado ou com baixo uso.<br/>
-Led Verde: Motor com Temperatura entre 60 graus e 79 graus.<br/>
-Led Amarelo: Motor com Temperatura entre 80 graus e 99 graus.<br/>
-Led Vermelho: Motor com Temperatura entre 100 graus e 125 graus(limitação do TMP36).
-
 - Velocidade do carro
 
 Escolhemos utilizar um Encoder de 1000 PPR para calcularmos a velocidade do carro em tempo real.<br/>
@@ -42,6 +26,22 @@ Um motor CC para simularmos as rotações.<br/>
 Uma fonte de energia para alterarmos a tensão e a corrente.<br/>
 Um display LCD para mostrar em tempo real o número de rotações.<br/>
 Um osciloscópio para mostrar gráficamente as oscilações.
+
+- Temperatura do motor
+
+Para fazermos essa medição, escolhemos o Termopar tipo K, por conta de sua resistência a altas temperaturas
+e támbem sua grande durabilidade.
+
+Confira o código em "temperature.ino"
+
+Simulação no TinkerCad: https://www.tinkercad.com/things/jwEQMK3mG9v-medidor-de-temperatura-tmp36?sharecode=t6DTtvCnz_UQcpBDItbN_Q5RTIu4Te4lGHOa9Dkzmjc<br/>
+
+Devido às limtações da plataforma, utilizamos um TMP36 como ferramenta de medida. 
+<br/>A temperatura é exibida no Monitor Serial, porém, também utilizamos leds para representar os estados do motor.
+Leds apagados: Motor desligado ou com baixo uso.<br/>
+Led Verde: Motor com Temperatura entre 60 graus e 79 graus.<br/>
+Led Amarelo: Motor com Temperatura entre 80 graus e 99 graus.<br/>
+Led Vermelho: Motor com Temperatura entre 100 graus e 125 graus(limitação do TMP36).
 
 
 
