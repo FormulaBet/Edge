@@ -28,7 +28,9 @@ Led Vermelho: Motor com Temperatura entre 100 graus e 125 graus(limitação do T
 - Velocidade do carro
 
 Escolhemos utilizar um Encoder de 1000 PPR para calcularmos a velocidade do carro em tempo real.<br/>
-Confira o código em "speed.ino"<br/>
+
+Confira o código em "speed.ino"
+
 (Notas:Para fazer o cálculo real, seria necessário alterar a váriavel wheelDiameter, colocando o diâmetro real da roda do carro. <br/>As altas velocidades da Fórmula E excedem a capacidade do Arduino, portanto, o valor da velocidade é aproximado, não exato)
 
 
